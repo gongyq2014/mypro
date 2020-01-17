@@ -1,0 +1,26 @@
+From b94aaef0bc8de2f38ed62ea9b7382937d4ac7d8a Mon Sep 17 00:00:00 2001
+From: gongyq <gongyq@yidianling.com>
+Date: Fri, 17 Jan 2020 11:13:55 +0800
+Subject: [PATCH] =?UTF-8?q?Revert=20"=E5=90=88=E5=B9=B6=EF=BC=8C=E8=A7=A3?=
+ =?UTF-8?q?=E5=86=B3=E5=86=B2=E7=AA=81"?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+This reverts commit 9b92895a6ac7508eab1ac8eae6fd1393028b518e.
+---
+ f.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/f.txt b/f.txt
+index 9a45fc4..a594226 100644
+--- a/f.txt
++++ b/f.txt
+@@ -1,2 +1,2 @@
+ master
+-dev111222
++dev111222dev111222333
+\ No newline at end of file
+-- 
+2.25.0.windows.1
+
